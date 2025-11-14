@@ -4,14 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Signin from './pages/signin'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Signup from './pages/Signup'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
-         
-         <Signin/>
+    <div>         
+         <Signup/>
     </div>
   )
 }
