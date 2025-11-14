@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row justify-content-center mb-2">
+                <div class="col-3 text-center">
+                    <h1>Sign Up</h1>
+                </div>
+            </div>
+            <form>
+                <div class="row justify-content-center">
+                    <div class="col-3">
+                        <input type="text" class="form-control" placeholder="First name" />
+                    </div>
+                    <div class="col-3">
+                        <input type="text" class="form-control" placeholder="Last name" />
+                    </div>
+                </div>
+
+                <div class="row justify-content-center mt-2">
+                    <div class="col-6">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+
+                    </div>
+                </div>
+
+                <div class="row justify-content-center mt-2">
+                    <div class="col-6">
+                        <label for="MOb" class="form-label">Mobile No.</label>
+                        <input type="tel" class="form-control" id="MOb" aria-describedby="" />
+
+                    </div>
+                </div>
+
+                <div class="row justify-content-center mt-2">
+                    <div class="col-6">
+                        <label for="Dateofbirth" class="form-label">Date of Birth</label>
+                        <input type="date" class="form-control" id="Dateofbirth" aria-describedby="" />
+
+                    </div>
+                </div>
+
+                <div class="row justify-content-center mt-2">
+                    <div class="col-6">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" name="password" required />
+
+                    </div>
+                </div>
+
+                <div class="row justify-content-center mt-2">
+                    <div class="col-6">
+                        <label for="confirm-password" class="form-label">Confirm Password</label>
+                        <input type="password" class="form-control" id="confirm-password" name="confirm-password"
+                            required onkeyup="checkPasswordMatch()" />
+
+                    </div>
+                </div>
+
+                <div class="row g-3 my-2 justify-content-center">
+                    <div class="col-6">
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+                </div>
+
+                <div class="row g-3 mb-2 justify-content-center">
+                    <div class="col-6">
+                        Don't have an account? <a href="">Sign in</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
